@@ -51,8 +51,14 @@ label.pilot {
 
 textarea.dark-side {
   display: block;
+  border: 1px solid: #000000;
+  border-radius: 5px;n 
 }
 
+textarea.story-origin {
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
 .side-title {
   display: inline;
 }
