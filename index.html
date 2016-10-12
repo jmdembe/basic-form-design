@@ -9,8 +9,8 @@
         <h1>Force User Sign Up Form</h1>
         <form method='POST' action='http://requestb.in/1gaezmg1' enctype='multipart/form-data'>
 
-          <section class='basic-info'>
-              <h2>Basic Info</h2>
+          <fieldset class='basic-info'>
+              <legend>Basic Info</legend>
               <aside>
                 <label for='full-name'>Full name</label>
                 <input type='text' id='full-name' name='user-name' placeholder='Name' required>
@@ -26,10 +26,21 @@
                   <input type='text' id='e-mail' name='e-mail' placeholder='E-mail' required>
               </aside>
 
+              <aside>
+                  <legend>Side</legend>
+                  <label for='side-light'>Light</label>
+                  <input type='radio' id='side-light' name='side' value='Light'>
+                  <label for='side-dark'>Dark</label>
+                  <input type='radio' id='side-dark' name='side-dark' value='Dark'>
+              </aside>
+              <aside id="origin-story">
+                  <textarea id='origin-story' name='origin-story'>This is my story</textarea>
+              </aside>
 
-          </section>
-          <section class='abilities'></section>
-          <section class='application-info'></section>
+
+          </fieldset>
+          <fieldset class='abilities'></fieldset>
+          <fieldset class='application-info'></fieldset>
         </form>
     </body>
     <footer>
