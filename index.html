@@ -28,9 +28,11 @@
 
                   <aside>
                       <label for='side'>Side</label>
-                      <label for='side'>Light</label>
+
+                      <label for='light-side'>Light</label>
                       <input type='radio' id='light-side' name='side' value='Light'>
-                      <label for='side'>Dark</label>
+
+                      <label for='dark-side'>Dark</label>
                       <input type='radio' id='dark-side' name='side' value='Dark'>
                   </aside>
                   <aside id="origin-story">
@@ -43,7 +45,6 @@
                   <aside>
                       <label for='lightsaber-color'>Lightsaber Color</label>
                       <select id='lightsaber-color'>
-                          <option value='default' selected>Choose One</option>
                           <option value='blue'>Blue</option>
                           <option value='red'>Red</option>
                           <option value='green'>Green</option>
@@ -54,9 +55,38 @@
                       <label for='levitate-objects'>How many objects can you levitate at once?</label>
                       <input type='number' min='0' step='1' id='levitate-objects'>
                   </aside>
+                  <aside>
+                      <label for='favorite-ability'>Favorite Ability</label>
+                      <input type='text' id='favorite-ability'name='favorite-ability'>
+                  </aside>
+                  <aside>
+                      <label for='pilot-experience'>Pilot Experience</label><br> <!--this is not a label-->
+
+                      <input type='checkbox' id='speeder' name='pilot-experience'>
+                      <label for='speeder'>Speeder</label>
+
+                      <input type='checkbox' id='transport' name='pilot-experience'>
+                      <label for='transport'>Transport</label>
+
+                      <input type='checkbox' id='x-wing' name='pilot-experience'>
+                      <label for='x-wing'>X-Wing</label>
+
+                      <input type='checkbox' id='tie-fighter' name='pilot-experience'>
+                      <label for='tie-fighter'>TIE Fighter</label>
+
+                      <input type='checkbox' id='starship' name='pilot-experience'>
+                      <label for='starship'>Starship</label>
+
+                      <input type='checkbox' id='bantha' name='pilot-experience'>
+                      <label for='bantha'>Bantha</label>
+                  </aside>
 
           </fieldset>
-          <fieldset class='application-info'></fieldset>
+          <fieldset class='application-info'>
+              <aside>
+                  <input type='submit' value='Apply'
+              </aside>
+          </fieldset>
         </form>
     </body>
     <footer>
