@@ -9,47 +9,51 @@
         <h1>Force User Sign Up Form</h1>
         <form method='POST' action='http://requestb.in/1gaezmg1' enctype='multipart/form-data'>
 
-          <fieldset class='basic-info-box'>
+          <fieldset class='basic-info'>
               <legend>Basic Info</legend>
-              <aside>
-                <label for='full-name'>Full name</label>
-                <input type='text' id='full-name' name='user-name' placeholder='Name' required>
-              </aside>
+                  <aside>
+                    <label for='full-name'>Full name</label>
+                    <input type='text' id='full-name' name='user-name' placeholder='Name' required>
+                  </aside>
 
-              <aside>
-                  <label for='profile-pic'>Profile Pic</label>
-                  <input type='file' id='profile-pic'>
-              </aside>
+                  <aside>
+                      <label for='profile-pic'>Profile Pic</label>
+                      <input type='file' id='profile-pic'>
+                  </aside>
 
-              <aside>
-                  <label for='e-mail'>Email</label>
-                  <input type='text' id='e-mail' name='e-mail' placeholder='E-mail' required>
-              </aside>
+                  <aside>
+                      <label for='e-mail'>Email</label>
+                      <input type='text' id='e-mail' name='e-mail' placeholder='E-mail' required>
+                  </aside>
 
-              <aside>
-                  <label for='side'>Side</label>
-                  <label for='side'>Light</label>
-                  <input type='radio' id='light-side' name='side' value='Light'>
-                  <label for='side'>Dark</label>
-                  <input type='radio' id='dark-side' name='side' value='Dark'>
-              </aside>
-              <aside id="origin-story">
-                  <textarea id='origin-story' name='origin-story'>This is my story</textarea>
-              </aside>
+                  <aside>
+                      <label for='side'>Side</label>
+                      <label for='side'>Light</label>
+                      <input type='radio' id='light-side' name='side' value='Light'>
+                      <label for='side'>Dark</label>
+                      <input type='radio' id='dark-side' name='side' value='Dark'>
+                  </aside>
+                  <aside id="origin-story">
+                      <textarea id='origin-story' name='origin-story'>This is my story</textarea>
+                  </aside>
           </fieldset>
 
           <fieldset class='abilities-box'>
               <legend>Abilities</legend>
-              <aside>
-                  <label for='lightsaber-color'>Lightsaber Color</label>
-                  <select id='lightsaber-color'>
-                      <option value='default' selected>Choose One</option>
-                      <option value='blue'>Blue</option>
-                      <option value='red'>Red</option>
-                      <option value='green'>Green</option>
-                      <option value='purple'>Purple</option>
-                  </select>
-              </aside>
+                  <aside>
+                      <label for='lightsaber-color'>Lightsaber Color</label>
+                      <select id='lightsaber-color'>
+                          <option value='default' selected>Choose One</option>
+                          <option value='blue'>Blue</option>
+                          <option value='red'>Red</option>
+                          <option value='green'>Green</option>
+                          <option value='purple'>Purple</option>
+                      </select>
+                  </aside>
+                  <aside>
+                      <label for='levitate-objects'>How many objects can you levitate at once?</label>
+                      <input type='number' min='0' step='1' id='levitate-objects'>
+                  </aside>
 
           </fieldset>
           <fieldset class='application-info'></fieldset>
