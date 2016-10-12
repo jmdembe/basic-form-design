@@ -14,22 +14,22 @@
           <fieldset class='basic-info'>
               <legend>Basic Info</legend>
                   <aside>
-                    <span>Full Name</span>
+                    <label for='full-name'>Full name</label>
                     <input type='text' id='full-name' name='user-name' placeholder='Name' required>
                   </aside>
 
                   <aside>
-                      <span>Profile Pic</span>
+                      <label for='profile-pic'>Profile Pic</label>
                       <input type='file' id='profile-pic'>
                   </aside>
 
                   <aside>
-                      <span>Email</span>
+                      <label for='e-mail'>Email</label>
                       <input type='text' id='e-mail' name='e-mail' placeholder='E-mail' required>
                   </aside>
 
                   <aside>
-                      <span>Side</span>
+                      <h2>Side</h2>
 
                       <label for='light-side'>Light</label>
                       <input type='radio' id='light-side' name='side' value='Light'>
@@ -38,7 +38,6 @@
                       <input type='radio' id='dark-side' name='side' value='Dark'>
                   </aside>
                   <aside id="origin-story">
-                      <span>Origin Story</span><br>
                       <textarea id='origin-story' name='origin-story'>This is my story</textarea>
                   </aside>
           </fieldset>
@@ -46,7 +45,7 @@
           <fieldset class='abilities-box'>
               <legend>Abilities</legend>
                   <aside>
-                      <span>Lightsaber Color</span>
+                      <label for='lightsaber-color'>Lightsaber Color</label>
                       <select id='lightsaber-color'>
                           <option value='blue'>Blue</option>
                           <option value='red'>Red</option>
@@ -63,7 +62,7 @@
                       <input type='text' id='favorite-ability'name='favorite-ability'>
                   </aside>
                   <aside>
-                      <label for='pilot-experience'>Pilot Experience</label><br> <!--this is not a label-->
+                      <h3>Pilot Experience</h3> <!--this is not a label-->
 
                       <input type='checkbox' id='speeder' name='pilot-experience'>
                       <label for='speeder'>Speeder</label>
@@ -87,7 +86,23 @@
           <fieldset class='application-info'>
               <legend>Application Info</legend>
               <aside>
-                  <input type='submit' value='Apply'
+                  <label for='desired-mentor'>Desired Mentor</label>
+                  <input type='text' id='desired-mentor' name='desired-mentor' placeholder='Yoda'>
+              </aside>
+              <aside>
+                  <label for='application-date'>Application Date</label>
+                  <input type='date' id='application-date' name='application-date'>
+              </aside>
+              <aside>
+                  <label for='application-password'>Application Password</label>
+                  <input type='password' id='application-password' name='application-password'>
+              </aside>
+              <aside>
+                  <h2>How do you get to the dark side?</h2>
+                  <textarea id='dark-side-story' name='dark-side-story'></textarea>
+              <aside>
+                  <input type='submit' value='Apply'>
+                  <input type='reset' value='Start Over'>
               </aside>
           </fieldset>
         </form>
