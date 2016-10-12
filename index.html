@@ -7,27 +7,29 @@
     </head>
     <body>
         <h1>Force User Sign Up Form</h1>
-        <form method='POST' action='http://requestb.in/1gaezmg1' enctype='multipart/form-data'>
+
+        <main>
+          <form method='POST' action='http://requestb.in/1gaezmg1' enctype='multipart/form-data'>
 
           <fieldset class='basic-info'>
               <legend>Basic Info</legend>
                   <aside>
-                    <label for='full-name'>Full name</label>
+                    <span>Full Name</span>
                     <input type='text' id='full-name' name='user-name' placeholder='Name' required>
                   </aside>
 
                   <aside>
-                      <label for='profile-pic'>Profile Pic</label>
+                      <span>Profile Pic</span>
                       <input type='file' id='profile-pic'>
                   </aside>
 
                   <aside>
-                      <label for='e-mail'>Email</label>
+                      <span>Email</span>
                       <input type='text' id='e-mail' name='e-mail' placeholder='E-mail' required>
                   </aside>
 
                   <aside>
-                      <label for='side'>Side</label>
+                      <span>Side</span>
 
                       <label for='light-side'>Light</label>
                       <input type='radio' id='light-side' name='side' value='Light'>
@@ -36,6 +38,7 @@
                       <input type='radio' id='dark-side' name='side' value='Dark'>
                   </aside>
                   <aside id="origin-story">
+                      <span>Origin Story</span><br>
                       <textarea id='origin-story' name='origin-story'>This is my story</textarea>
                   </aside>
           </fieldset>
@@ -43,7 +46,7 @@
           <fieldset class='abilities-box'>
               <legend>Abilities</legend>
                   <aside>
-                      <label for='lightsaber-color'>Lightsaber Color</label>
+                      <span>Lightsaber Color</span>
                       <select id='lightsaber-color'>
                           <option value='blue'>Blue</option>
                           <option value='red'>Red</option>
@@ -80,14 +83,15 @@
                       <input type='checkbox' id='bantha' name='pilot-experience'>
                       <label for='bantha'>Bantha</label>
                   </aside>
-
           </fieldset>
           <fieldset class='application-info'>
+              <legend>Application Info</legend>
               <aside>
                   <input type='submit' value='Apply'
               </aside>
           </fieldset>
         </form>
+        <
     </body>
     <footer>
         <p>&copy; 2016 The Republic</p>
