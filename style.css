@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: .25em;
+  padding: .25em;
+}
+
+fieldset {
+  display: inline-block;
+  border: solid 1px #000000;
+  border-radius: 15px;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+aside {
+  display: block;
+}
+
+.abilities-box {
+  align
+}
+
+.submit-button {
+  background-color:
+}
+
+label {
+  display: block;
+}
